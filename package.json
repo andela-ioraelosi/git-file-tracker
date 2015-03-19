@@ -1,0 +1,28 @@
+{
+  "name": "git-file-tracker",
+  "version": "1.0.0",
+  "description": "Track file contents of Github repositories and chart them.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-ioraelosi/vizgit.git"
+  },
+  "keywords": [
+    "chart",
+    "graph",
+    "visual",
+    "git"
+  ],
+  "author": "Ifeanyi Oraelosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-ioraelosi/vizgit/issues"
+  },
+  "homepage": "https://github.com/andela-ioraelosi/vizgit"
+}
