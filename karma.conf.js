@@ -23,8 +23,8 @@ module.exports = function(config) {
       './libs/base-64/base64.js',
       './libs/angular-chartist/dist/angular-chartist.js',
       './app/core/core.module.js',
-      './app/core/services/authentication.services.js',
-      './app/core/controllers/authentication.controller.js',
+      './app/core/services/login.service.js',
+      './app/core/controllers/login.controller.js',
       './tests/unit/core/services/**/*.js',
       './tests/unit/core/controllers/**/*.js'
     ],
@@ -39,8 +39,8 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
         './app/core/core.module.js': ['coverage'],
-        './app/core/services/authentication.service.js': ['coverage'],
-        './app/core/controllers/authentication.controller.js': ['coverage']
+        './app/core/services/login.service.js': ['coverage'],
+        './app/core/controllers/login.controller.js': ['coverage']
     },
 
 
