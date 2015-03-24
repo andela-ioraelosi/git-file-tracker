@@ -1,0 +1,8 @@
+{
+  "name": "sloc-bower",
+  "main": "sloc.js",
+  "authors": [
+    "Markus Kohlhase <mail@markus-kohlhase.de>"
+  ],
+  "license": "MIT"
+}

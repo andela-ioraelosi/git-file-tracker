@@ -1,0 +1,20 @@
+{
+  "name": "sloc-bower",
+  "main": "sloc.js",
+  "authors": [
+    "Markus Kohlhase <mail@markus-kohlhase.de>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/flosse/sloc-bower",
+  "version": "0.1.9",
+  "_release": "0.1.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.9",
+    "commit": "4f5c103924065ce2984ba6f746ed7b3dafd31196"
+  },
+  "_source": "git://github.com/flosse/sloc-bower.git",
+  "_target": "~0.1.9",
+  "_originalSource": "sloc-bower",
+  "_direct": true
+}
