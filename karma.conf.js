@@ -21,7 +21,7 @@ module.exports = function(config) {
       './libs/satellizer/satellizer.js',
       './libs/sloc-bower/sloc.js',
       './libs/base-64/base64.js',
-      './libs/angular-chartist/dist/angular-chartist.js',
+      './libs/angular-chartist.js/dist/angular-chartist.js',
       './app/core/core.module.js',
       './app/core/services/login.service.js',
       './app/core/controllers/login.controller.js',
