@@ -2,7 +2,13 @@
   "node": true,
   "browser": true,
   "globals": {
-
+    "describe": true,
+    "inject": true,
+    "module": true,
+    "beforeEach": true,
+    "spyOn": true,
+    "expect": true,
+    "it": true
   },
   "eqeqeq": true
 }
