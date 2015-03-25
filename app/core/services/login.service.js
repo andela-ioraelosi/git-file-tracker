@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('core')
   .factory('LoginService', ['$auth', function ($auth) {
 
