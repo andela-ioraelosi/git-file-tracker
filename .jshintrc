@@ -2,6 +2,7 @@
   "node": true,
   "browser": true,
   "globals": {
+    "angular": true,
     "describe": true,
     "inject": true,
     "module": true,
