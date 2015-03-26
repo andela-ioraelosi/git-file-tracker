@@ -1,11 +1,22 @@
 'use strict';
 
 angular.module('core')
-  .factory('LoginService', ['$auth', function ($auth) {
+  .factory('LoginService', [function () {
 
     return {
-      authenticate: function (provider) {
-        $auth.authenticate(provider);
+      username: null,
+      password: null,
+
+      setUserCredentials: function (credentials) {
+        this.username = credentials.username;
+        this.password = credentials.password;
+      },
+
+      getUserCredentials: function () {
+        return {
+          username: this.username,
+          password: this.password
+        };
       }
     };
 

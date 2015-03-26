@@ -1,10 +1,13 @@
 'use strict';
 
 angular.module('core')
-  .controller('LoginController', ['$scope', 'LoginService', function ($scope, LoginService) {
+  .controller('LoginController', ['LoginService', function (LoginService) {
+    var loginCtrl = this;
 
-    $scope.authenticate = function (provider) {
-      LoginService.authenticate(provider);
+    loginCtrl.setCredentials = function (userCredentials) {
+
+      LoginService.setUserCredentials(userCredentials);
+
     };
 
   }]);
