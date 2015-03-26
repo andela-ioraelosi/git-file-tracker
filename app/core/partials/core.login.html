@@ -1,0 +1,24 @@
+<section layout="column" layout-align="center center">
+
+  <md-content class="md-padding">
+
+    <form name="userCredentials">
+      <div layout="column">
+        <md-input-container>
+          <label>Username</label>
+          <input ng-model="loginCtrl.credentials.username" type="text" placeholder="username">
+        </md-input-container>
+        <md-input-container>
+          <label>Password</label>
+          <input ng-model="loginCtrl.credentials.password" type="password" placeholder="password">
+        </md-input-container>
+        <md-input-container>
+          <md-button class="md-raised md-primary" ng-click="loginCtrl.setCredentials(loginCtrl.credentials)">Send Credentials</md-button>
+        </md-input-container>
+      </div>
+    </form>
+
+  </md-content>
+
+
+</section>
