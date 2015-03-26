@@ -18,7 +18,6 @@ module.exports = function(config) {
       './libs/angular/angular.js',
       './libs/angular-mocks/angular-mocks.js',
       './libs/angular-route/angular-route.js',
-      './libs/satellizer/satellizer.js',
       './libs/sloc-bower/sloc.js',
       './libs/base-64/base64.js',
       './libs/angular-chartist.js/dist/angular-chartist.js',
