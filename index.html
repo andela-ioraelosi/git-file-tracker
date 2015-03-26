@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>VizGit: Visual File Reader for Github Repos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./libs/angular-material/angular-material.css">
+  </head>
+  <body ng-app="app">
+
+    <nav>
+      <md-content>
+        <md-toolbar>
+          <h2 class="md-toolbar-tools">
+            <span style="color: white;">VizGit</span>
+          </h2>
+        </md-toolbar>
+      </md-content>
+    </nav>
+
+    <section ng-view>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="./libs/angular/angular.js"></script>
+    <script src="./libs/angular-aria/angular-aria.js"></script>
+    <script src="./libs/angular-animate/angular-animate.js"></script>
+    <script src="./libs/angular-material/angular-material.js"></script>
+    <script src="./libs/angular-route/angular-route.js"></script>
+
+    <script src="./app/app.js"></script>
+    <script src="./app/core/core.module.js"></script>
+    <script src="./app/core/controllers/login.controller.js"></script>
+    <script src="./app/core/services/login.service.js"></script>
+    <script src="./app/core/controllers/index.controller.js"></script>
+    <script src="./app/core/services/index.service.js"></script>
+
+  </body>
+</html>
