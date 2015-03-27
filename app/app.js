@@ -23,6 +23,11 @@ angular.module('app', [
         'controller': 'LoginController',
         'controllerAs': 'loginCtrl'
       })
+      .when('/dashboard', {
+        'templateUrl': './app/dashboard/partials/dashboard.index.html',
+        'controller': 'DashboardController',
+        'controllerAs': 'dashCtrl'
+      })
       .otherwise({
         'redirectTo': '/'
       });
