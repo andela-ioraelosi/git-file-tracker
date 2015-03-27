@@ -21,11 +21,19 @@ module.exports = function(config) {
       './libs/sloc-bower/sloc.js',
       './libs/base-64/base64.js',
       './libs/angular-chartist.js/dist/angular-chartist.js',
+
       './app/core/core.module.js',
       './app/core/services/login.service.js',
       './app/core/controllers/login.controller.js',
+
+      './app/dashboard/dashboard.module.js',
+      './app/dashboard/services/filereader.service.js',
+      './app/dashboard/controllers/dashboard.controller.js',
+
       './tests/unit/core/services/**/*.js',
-      './tests/unit/core/controllers/**/*.js'
+      './tests/unit/core/controllers/**/*.js',
+      './tests/unit/dashboard/controllers/**/*.js',
+      './tests/unit/dashboard/services/**/*.js'
     ],
 
 
@@ -39,7 +47,9 @@ module.exports = function(config) {
     preprocessors: {
         './app/core/core.module.js': ['coverage'],
         './app/core/services/*.js': ['coverage'],
-        './app/core/controllers/*.js': ['coverage']
+        './app/core/controllers/*.js': ['coverage'],
+        './app/dashboard/controllers/*.js': ['coverage'],
+        './app/dashboard/services/*.js': ['coverage']
     },
 
 
